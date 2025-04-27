@@ -35,6 +35,10 @@ h1{
     padding-left: 63px;
     padding-top: 10px;
 }
+h1 a{
+    text-decoration: none;
+    color: black;
+}
 section.hero{
     font-family: "Hind", sans-serif;
   font-weight: 600;
@@ -769,9 +773,9 @@ p.paragrafo{
   font-style: normal;
   margin: auto;
   max-width: 800px;
-  padding-top: 46px;
+  padding-top: 36px;
   font-size: 23px;
-  padding-bottom: 46px;
+  padding-bottom: 36px;
 }
 h2.titolo{
     font-family: "Hind", sans-serif;
