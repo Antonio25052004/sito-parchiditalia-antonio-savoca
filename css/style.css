@@ -32,7 +32,7 @@ nav ul{
     font-size: 20px;
 }
 h1{
-    padding-left: 63px;
+    
     padding-top: 10px;
 }
 h1 a{
@@ -72,8 +72,7 @@ section.herodue{
     
 }
 h1.herodue{
-    padding-left: 211px;
-    padding-right: 211px;
+    max-width: 1000px;
     padding-top: 0px;
     font-size: 80px;
 }
@@ -88,10 +87,11 @@ section.herodue p{
     margin: auto;
 }
 section.herodue p.herodue{
-    font-size: 37px;
+    font-size: 35px;
     font-family: "Hind", sans-serif;
     font-weight: 500;
     font-style: normal;
+    line-height: 1.4;
 }
 section.hero p{
     font-size: 38px;
@@ -110,6 +110,7 @@ section.hero p.parchi{
     max-width: 800px;
     margin: auto;
     padding-top: 10px;
+    line-height: 1.4;
 }
 .copertina{
     display: flex;
@@ -132,8 +133,8 @@ p.intro{
   max-width: 800px;
   margin: auto;
   font-size: 23px;
-  padding-bottom: 46px;
-  padding-top: 46px;
+  padding-bottom: 26px;
+  padding-top: 26px;
   
 }
 nav a{
@@ -182,6 +183,81 @@ h1.primopiano{
 }
 .toscana a{
     text-decoration: none;
+}
+.toscana a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.etna a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.vesuvio a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.sila a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.Attiv a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.borghi a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.birdwatching a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.Sport a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.Escursioni a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.Visite a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.abruzzo a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.granparadiso a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.pollino a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.dolomiti a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.cinqueterre a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.Lamaddalena a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.Alburni a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.campigna a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+a:hover{
+    color: #45947F;
 }
 .etna img{
     width: 426px;
@@ -773,9 +849,9 @@ p.paragrafo{
   font-style: normal;
   margin: auto;
   max-width: 800px;
-  padding-top: 36px;
+  padding-top: 26px;
   font-size: 23px;
-  padding-bottom: 36px;
+  padding-bottom: 26px;
 }
 h2.titolo{
     font-family: "Hind", sans-serif;
@@ -1760,12 +1836,10 @@ h2.titolo{
         font-family: "Hind", sans-serif;
       font-weight: 300;
       font-style: normal;
-      margin-left: 100px;
-      margin-right: 100px;
-      margin-top: 26px;
+      max-width: 400px;
       font-size: 19px;
-      margin-bottom: 26px;
-      margin-top: 26px;
+      padding-bottom: 26px;
+      padding-top: 26px;
  
     }
     footer{
@@ -2219,7 +2293,7 @@ h2.titolo{
         margin-top: 60px; 
     }
     h1.herodue{
-        padding: 0px;
+        padding-left: 70px;
         max-width: 500px;
         margin: auto;
         font-size: 40px;
@@ -2234,11 +2308,11 @@ h2.titolo{
     }
     section.herodue p.herodue{
         font-size: 20px;
+        max-width: 400px;
+        margin: 0%;
         padding: 0%;
-        margin-bottom: 60px;
-        margin-top: 23px;
-        margin-left: 110px;
-        margin-right: 100px;
+        padding-top: 26px;
+        padding-bottom: 26px;
         font-family: "Hind", sans-serif;
         font-weight: 500;
         font-style: normal;
@@ -2247,11 +2321,10 @@ h2.titolo{
         font-family: "Hind", sans-serif;
       font-weight: 300;
       font-style: normal;
-      margin-left: 100px;
-      margin-right: 100px;
-      margin-top: 26px;
+      max-width: 400px;
+      padding-top: 26px;
       font-size: 19px;
-      margin-bottom: 46px;
+      padding-bottom: 46px;
     }
     h2.titolo{
         font-family: "Hind", sans-serif;
